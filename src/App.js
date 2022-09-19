@@ -12,7 +12,7 @@ function App() {
       <div className="App">
         <Routes>
 
-          <Route path='/detail' element={
+          <Route path='/detail/:id' element={
             <>
               <Header />
               <Detail />

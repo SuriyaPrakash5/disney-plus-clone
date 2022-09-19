@@ -2,11 +2,11 @@ import React from 'react'
 import './Movies.css'
 import { selectMovies } from '../features/movie/movieSlice'
 import { useSelector } from 'react-redux'
+import { Link } from 'react-router-dom'
 
 function Movies() {
 
     const movies = useSelector(selectMovies)
-    console.log(movies)
 
     return (
         <div className='movies'>
@@ -14,8 +14,12 @@ function Movies() {
             <div className='movies__content'>
                 {movies && movies.map((movie) => (
                     <div key={movie.id} className='movies__contentWrap'>
-                        <img src={movie.cardImg} alt='' />
+                        <Link to={`/detail/${movie.id}`}>
+                            <img src={movie.cardImg} alt='' />
+                        </Link>
+
                     </div>
+
                 ))
                 }
                 <div className='movies__contentWrap'>

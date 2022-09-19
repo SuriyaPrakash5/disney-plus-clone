@@ -15,12 +15,17 @@ function Home() {
             {
                 id: "1",
                 subTitle: "",
-                cardImg: "https://cdn.cloudflare.steamstatic.com/steam/apps/1105420/capsule_616x353.jpg?t=1583118085"
+                cardImg: "https://cdn.cloudflare.steamstatic.com/steam/apps/1105420/capsule_616x353.jpg?t=1583118085",
+                imgTitle: "https://logos-download.com/wp-content/uploads/2016/09/Game_of_Thrones_logo_logotype_wordmark.png",
+                backgroundImg: "https://cdn.vox-cdn.com/thumbor/kLIufnG5b1BgdpK7gTurukb-mgE=/0x0:3267x2100/1200x800/filters:focal(1373x789:1895x1311)/cdn.vox-cdn.com/uploads/chorus_image/image/63666336/dragons_game_of_thrones.0.jpg"
             },
             {
                 id: "2",
                 subTitle: "",
-                cardImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmKHFdJlIICnnuldMTWZnLV5Sd981SOW5_5w&usqp=CAU"
+                imgTitle: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Doctor-Strange-logo.svg",
+                cardImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmKHFdJlIICnnuldMTWZnLV5Sd981SOW5_5w&usqp=CAU",
+                backgroundImg: "https://images.thedirect.com/media/article_full/doctor-strange-2-every-character-scrapped-from-the-final-cut_.jpg"
+
             },
             {
                 id: "3",
@@ -55,6 +60,8 @@ function Home() {
             {
                 id: "9",
                 subTitle: "",
+                imgTitle: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/The_Incredible_Hulk_logo.png/1200px-The_Incredible_Hulk_logo.png",
+                backgroundImg: "https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/04/The-Incredible-Hulk.jpg",
                 cardImg: "https://flxt.tmsimg.com/assets/p32133_p_v12_ac.jpg"
             },
             {

@@ -7,6 +7,29 @@
     overflow-x: hidden;
 }
 
+.login__container {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.login__btn {
+    border: 1px solid #f9f9f9;
+    padding: 8px 16px;
+    border-radius: 4px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all 0.2s ease 0s;
+}
+
+.login__btn:hover {
+    background-color: #f9f9f9;
+    color: black;
+    border-color: transparent;
+}
+
 .header__logo>img {
     width: 80px;
     object-fit: contain;
