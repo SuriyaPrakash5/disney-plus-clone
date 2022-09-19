@@ -1,10 +1,13 @@
 import React from 'react'
 import './Home.css'
+import ImageSlider from './ImageSlider'
+import Viewers from './Viewers'
 
 function Home() {
     return (
-        <div>
-            Home
+        <div className='home'>
+            <ImageSlider />
+            <Viewers />
         </div>
     )
 }

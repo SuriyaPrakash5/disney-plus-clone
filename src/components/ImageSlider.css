@@ -1,0 +1,37 @@
+.imageSlider {
+    margin-top: 20px;
+}
+
+.imageSlider>ul>li>button::before {
+    font-size: 10px;
+    color: rgb(150, 158, 171)
+}
+
+.imageSlider>ul>li>button::before {
+    color: white !important;
+}
+
+.imageSlider>.slick-list {
+    overflow: visible;
+}
+
+.imageSlider>button {
+    z-index: 1;
+}
+
+.imageSlider__wrap {
+    cursor: pointer;
+}
+
+.imageSlider__wrap>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: rgb(0, 0, 0, 0.69) 0px 26px 30px -10px, rgb(0, 0, 0, 0.73) 0px 16px 10px -10px;
+    border: 4px solid transparent;
+    transition-duration: 300ms;
+}
+
+.imageSlider__wrap>img:hover {
+    border: 4px solid rgba(249, 249, 249, 0.8);
+}
