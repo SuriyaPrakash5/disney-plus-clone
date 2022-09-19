@@ -16,16 +16,16 @@ function ImageSlider() {
     return (
         <Slider {...settings} className='imageSlider'>
             <div className='imageSlider__wrap'>
-                <img src='/images/slider-badging.jpg' alt='' />
+                <img src='/images/slider-scale.jpg' alt='' />
             </div>
             <div className='imageSlider__wrap'>
                 <img src='/images/slider-badag.jpg' alt='' />
             </div>
             <div className='imageSlider__wrap'>
-                <img src='/images/slider-badging.jpg' alt='' />
+                <img src='/images/slider-scales.jpg' alt='' />
             </div>
             <div className='imageSlider__wrap'>
-                <img src='/images/slider-badag.jpg' alt='' />
+                <img src='/images/slider-badging.jpg' alt='' />
             </div>
         </Slider>
     )

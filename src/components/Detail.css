@@ -25,6 +25,7 @@
     width: 35vw;
     min-height: 170px;
     min-width: 200px;
+    margin-top: 60px;
 }
 
 .detail__imageTitle>img {
@@ -119,4 +120,5 @@
     color: rgb(249, 249, 249);
     font-size: 20px;
     margin-top: 16px;
+    max-width: 500px;
 }
