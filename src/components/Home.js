@@ -6,6 +6,7 @@ import { useDispatch } from 'react-redux'
 import { setMovies } from '../features/movie/movieSlice'
 import { useEffect } from 'react'
 
+
 function Home() {
 
     const dispatch = useDispatch();
